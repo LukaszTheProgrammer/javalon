@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double a1 = scanner.nextDouble();
-        String operacja = scanner.next();
-        double a2 = scanner.nextDouble();
         System.out.println("Proszę podać wyrażenie do obliczenia");
+        double a1 = Double.parseDouble(scanner.nextLine());
+        String operacja = scanner.nextLine();
+        double a2 = Double.parseDouble(scanner.nextLine());
         if (operacja.equals("+")) {
             System.out.println(a1 + a2);
         } else if (operacja.equals("-")) {
