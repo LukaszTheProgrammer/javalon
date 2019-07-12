@@ -17,6 +17,7 @@
     <module>ifelse</module>
     <module>calculator</module>
     <module>classes_and_objects</module>
+    <module>hello_world</module>
   </modules>
 
   <build>
